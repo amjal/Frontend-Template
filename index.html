@@ -4,9 +4,12 @@
 		<title>Business Casual</title>
 		<meta name="author" content="Amirmohammad Jalili">
 		<meta name="viewport" content="width=device-width, scale = 1">
-		<link rel="stylesheet" href="css/common.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="OwlCarousel2-2.2.1/dist/assets/owl.carousel.min.css">
+		<link rel="stylesheet" href="OwlCarousel2-2.2.1/dist/assets/owl.theme.default.min.css">
+		<link rel="stylesheet" href="css/style.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="OwlCarousel2-2.2.1/dist/owl.carousel.min.js"></script>
 		<script src="script/jq.js"></script>
 	</head>
 	<body>
@@ -18,7 +21,7 @@
 		<nav>
 			<a href="index.html"><span> Business Casual</span></a>
 			<ul>
-				<li><a href="index.html">HOME</a></li>
+				<li><a style="color:black" href="index.html">HOME</a></li>
 				<li><a href="about.html">ABOUT</a></li>
 				<li><a href="blog.html">BLOG</a></li>
 				<li><a href="contact.html">CONTACT</a></li>
@@ -27,11 +30,34 @@
 		</nav>
 		<div id="menu-panel">
 			<ul>
-				<a href="index.html"><li>HOME</li></a>
+				<a style="color:black" href="index.html"><li>HOME</li></a>
 				<a href="about.html"><li>ABOUT</li></a>
 				<a href="blog.html"><li>BLOG</li></a>
 				<a href="contact.html"><li>CONTACT</li></a>
 			</ul>
 		</div>
+		<div class="cont" id="carousel">
+			<div class="owl-carousel owl-theme">
+				<img src="img/slide-1.jpg"></img>
+				<img src="img/slide-2.jpg"></img>
+				<img src="img/slide-3.jpg"></img>
+			</div>
+			<p> Welcome To</p>
+			<h3> Business Casual</h3>
+			<p> By <strong> Start Bootstrap</strong></p>
+		</div>		
+		<div class="cont">
+			<div class="title">
+				<hr>
+				<p>BUILD A WEBSITE <strong>WORTH VISITING</strong></p>
+				<hr>
+			</div>
+			<p><img src="img/intro-pic.jpg" alt="image not found" align="left" style="margin:5px"></img> HTTP is a very common protocol for server/client based networks to 
+			establish communications. and http message could either be a request to a server or a responnd to a client. a response http consists of a header line, header, and message body. header line contains a code and http version. a request is almost the same. the header line which is also called the request line has method instead of code. the http request has four methods: GET, PUT, POST, and DELETE. 
+			</p>
+		</div>
+		<footer>
+			<p>Copyright &#169 Your Website 2017</p>
+		</footer>
 	</body>
 </html>
