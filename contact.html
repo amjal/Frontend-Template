@@ -21,43 +21,62 @@
 		<nav>
 			<a href="index.html"><span> Business Casual</span></a>
 			<ul>
-				<li><a style="color:black" href="index.html">HOME</a></li>
+				<li><a href="index.html">HOME</a></li>
 				<li><a href="about.html">ABOUT</a></li>
 				<li><a href="blog.html">BLOG</a></li>
-				<li><a href="contact.html">CONTACT</a></li>
+				<li><a style="color:black" href="contact.html">CONTACT</a></li>
 			</ul>
 			<button type="button" id="menu-button"><i class="fa fa-list-ul"></i></button>
 		</nav>
 		<div id="menu-panel">
 			<ul>
-				<a style="color:black" href="index.html"><li>HOME</li></a>
+				<a href="index.html"><li>HOME</li></a>
 				<a href="about.html"><li>ABOUT</li></a>
 				<a href="blog.html"><li>BLOG</li></a>
-				<a href="contact.html"><li>CONTACT</li></a>
+				<a style="color:black" href="contact.html"><li>CONTACT</li></a>
 			</ul>
 		</div>
-		<div class="cont" id="carousel">
-			<div class="owl-carousel owl-theme">
-				<img src="img/slide-1.jpg"></img>
-				<img src="img/slide-2.jpg"></img>
-				<img src="img/slide-3.jpg"></img>
-			</div>
-			<p> Welcome To</p>
-			<h3> Business Casual</h3>
-			<p> By <strong> Start Bootstrap</strong></p>
-		</div>		
 		<div class="cont">
 			<div class="title">
 				<hr>
-				<p>BUILD A WEBSITE <strong>WORTH VISITING</strong></p>
+				<p>CONTACT <strong>BUSINESS CASUAL</strong></p>
 				<hr>
 			</div>
-			<p><img src="img/intro-pic.jpg" alt="image not found" align="left" style="margin:2%"></img> HTTP is a very common protocol for server/client based networks to 
-			establish communications. and http message could either be a request to a server or a responnd to a client. a response http consists of a header line, header, and message body. header line contains a code and http version. a request is almost the same. the header line which is also called the request line has method instead of code. the http request has four methods: GET, PUT, POST, and DELETE. 
-			</p>
+			<p>Phone:<br><strong>123.456.7890</strong></p>
+			<p>Email:<br><strong>name@example.com</strong></p>
+			<p>Address:<br><strong>3481 Melrose Place<br>Beverly Hills, CA 90210</strong></p> 
+		</div>
+		<div class="cont">
+			<div class="title">
+				<hr>
+				<p>CONTACT <strong>FORM</strong></p>
+				<hr>
+			</div>
+			<form id="f">
+				<div class="input">
+					<label for="Name">Name</label><br>
+					<input type="text" id="Name" name="name">
+				</div>
+				<div class="input">
+					<label for="Email">Email Address</label><br>
+					<input type="email" id="Email" name="email">
+				</div>
+				<div class="input">
+					<label for="Phone">Phone Number</label><br>
+					<input type="number" id="Phone" name="phone">
+				</div>
+				<div class="input" id="msg-div">
+					<label for="Message">Message</label><br>
+					<input type="text" id="Message" name="message">
+				</div>
+				<div class="input" style="width:100%">
+					<button type="submit" form="f">submit</button>
+				</div>
+			</form>
 		</div>
 		<footer>
-			<p>Copyright &#169 Your Website 2017</p>
+		<p>Copyright &#169 Your Website 2017</p>
 		</footer>
 	</body>
 </html>
+

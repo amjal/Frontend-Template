@@ -7,9 +7,10 @@ $(document).ready(function(){
     });
     $("footer").css("top",($("body").height-$("footer").height)+"px");
     $("#menu-button").click(function(){
-        $("#menu-panel").slideToggle('medium',function(){
+        $("#menu-panel").slideToggle(500,function(){
             if($(this).is(":visible"))
                $(this).css("display","flex");
         });
-    })
+    });
+
 });
